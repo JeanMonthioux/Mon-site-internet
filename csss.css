@@ -17,7 +17,7 @@ body {
 
 .logos :hover {
 opacity:calc(100%);
-font-size: 35px;
+
 
 }
 
@@ -502,6 +502,9 @@ margin-right: 150px;
 
 /* Ma Page Les armes */
 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Open+Sans:wght@300&family=Quicksand&display=swap');
+ 
+
 
 table img:hover {
 transform: scale(1.04);
@@ -531,13 +534,44 @@ td {
 
 
 caption {
+  font-family: 'Comfortaa', cursive;
   text-align: center;
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 60px;
   color: white;
 }
 
 .MonTableau {
   display: flex;
   justify-content: center;
+}
+
+
+/* Descriptif des armes*/
+
+.GrandTitre {
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+.Pistolets {
+text-align:left;
+
+margin-top: 50px;
+
+  border-top: white solid 2px;
+}
+
+.Pistolets h1 {
+ 
+  text-decoration: dotted;
+  margin: 50px;
+}
+
+.Pistolets p {
+  font-size: 18px;
+  margin: 50px;
 }
