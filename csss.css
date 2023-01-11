@@ -1,0 +1,543 @@
+
+/*Ma page Accueil*/
+
+body {
+  background-image:url("C:/Users/jeanm/OneDrive/Bureau/Mon site internet/Images/image de fond pour mon site.jpg");
+  background-size: cover;
+  margin:0px; 
+  
+}
+
+.logos img{
+  border-radius: 10px;
+  margin-top: 15px;
+  height: 120px;
+  width: 120px;
+  }
+
+.logos :hover {
+opacity:calc(100%);
+font-size: 35px;
+
+}
+
+
+p {
+  color: aliceblue;
+  
+ 
+}
+
+a {color: aliceblue;
+text-decoration: none;
+
+
+}
+
+h1 {
+  color: aliceblue;
+}
+
+a:hover {
+
+opacity:calc(60%);
+color: rgb(168, 168, 168);
+
+}
+
+ul {margin-top: 0;
+  margin-bottom: 10%;
+  background-color: rgb(139, 0, 0);
+  list-style-type:none;
+  display: flex;
+  align-items: center;
+justify-content: space-evenly;
+gap: 40px;
+font-size: 25px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular';
+padding-left: 0;
+margin-bottom: 100px;
+
+}
+
+
+.gogo {
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.début {
+  border-radius: 20px; 
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+font-size: 70px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 590px;
+margin-right: 590px;
+margin-bottom: 0;
+background-color:rgb(139, 0, 0);
+}
+
+.fin {display: flex;
+  justify-content: center;
+color: rgb(255, 255, 255);
+font-size: 40px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 300px;
+margin-right: 300px;
+
+}
+
+.début,.fin {
+
+  border-radius: 10px;
+  background-size: 50%;
+
+}
+
+.valooo {
+  display: flex;
+ text-align: center;
+}
+
+.valoi img {
+
+  width: 100%;
+  height: 100%;
+}
+
+.valox img {
+  width: 100%;
+  height: 100%;
+}
+
+.zaza , .zozo {
+
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.zaza {
+  color:rgb(255, 255, 255) ;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif ;
+  font-style: italic;
+}
+
+.zozo {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+ 
+}
+
+.zaza , .zozo {
+display: inline;
+margin-bottom: 40px;
+
+}
+
+.zuzu {
+display: flex;
+justify-content: center;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-style:italic;
+font-size: 35px;
+margin-top: 10%;
+
+}
+
+video {
+margin-left: 5%;
+
+
+}
+
+.logo {
+
+height:100px;
+padding-left: 0;
+width: 135px;
+}
+
+
+footer {
+  display: flex;
+margin-top: 5px;
+background-color:rgb(131, 2, 2);
+
+}
+
+.Column_2 { 
+
+  width: 15%;
+  height: 15%;
+
+
+}
+
+.Column_3 img {
+  margin-right: 40px;
+  width: 50px;
+  height: 50px;
+  
+}
+
+.Column_3 p {
+display: flex;
+justify-content: center;
+margin-right: 40px;
+}
+
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.twitter img {
+border-radius: 10px;
+
+}
+
+.insta img {
+
+  border-radius: 10px;
+}
+
+.youtube img {
+
+border-radius: 10px;  
+}
+
+.Column_3 a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.Column_1 {
+  margin-left: 40px;
+  width: 30%;
+  height: 30%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.Column_1 p {
+display: flex;
+justify-content: center;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.Column_2 {
+ 
+  width: 30%;
+  height: 30%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.Column_2 p {
+  display: flex;
+justify-content: center;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+
+.titre_support {
+  font-size: 25px;
+}
+
+
+.Mail {display: flex;
+  flex-direction: column;
+
+  margin-right: 20px;
+}
+
+.Infos {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.réseaux {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+margin-right: 5px;
+}
+
+.quii {
+display: flex;
+justify-content: center;
+font-size: 25px;
+
+}
+
+.contact {
+display: flex;
+justify-content: center;
+font-size: 25px;
+margin-bottom: 0;
+
+}
+
+.Column_4 {
+display: flex;
+flex-direction: column;
+margin-left:100px;
+
+}
+
+/* Ma page Règles */
+
+.modes {
+  border-radius: 20px;
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+font-size: 70px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 400px;
+margin-right: 400px;
+margin-bottom: 0;
+background-color:rgb(139, 0, 0)
+
+}
+
+.Premier {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+color: rgb(255, 255, 255);
+font-size: 25px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 50px;
+}
+
+/* Ma page Les Agents */
+
+.selectionnezAgent {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.selectionnezAgent p {
+  font-size: 25px;
+  font-style: italic;
+  
+}
+
+.TableauPersonnages {
+  display: flex;
+  justify-content: center;
+}
+
+.TableauPersonnages2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+/* Mes Pages des Agents (Viper, Breach, etc.) */
+
+
+.Agents {
+  border-radius: 20px;
+display: flex;
+margin-top: 0;
+justify-content: center;
+color: rgb(255, 255, 255);
+font-size: 70px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 550px;
+margin-right: 550px;
+margin-bottom: 100px;
+background-color:rgb(139, 0, 0)
+}
+
+
+.Page_entière {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+
+.Colonne1 {
+width: 50%;
+height: 50%;
+ margin-left: 150px;
+  
+}
+
+
+.Colonne2 {width: 50%;
+  height: 50%;
+
+
+}
+.Colonne2 h1 {
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 50px;
+margin-left: 100px;
+margin-top: 0;
+
+}
+
+.Colonne2 img {
+ 
+margin-top: 20px;
+}
+
+.textelogo_sort1{
+  display: flex;
+  
+}
+
+.qui {
+  font-size: 18px;
+  margin-right: 100px;
+}
+
+.nuage {
+  margin-left: 50px;
+  font-size: large;
+
+}
+
+.charge1 {
+  font-size: 15px;
+  margin-left: 50px;
+  font-style: italic;
+}
+
+.descriptifviper1 {
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 50px;
+}
+
+.textelogo_sort2 {
+  display: flex;
+}
+
+.vent {
+  margin-left: 50px;
+  font-size: large;
+}
+
+.charge2viper {
+  font-size: 15px;
+  margin-left: 50px;
+  font-style: italic;
+}
+
+.descriptifviper2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.textelogo_sort3 {
+  display:flex;
+  
+}
+
+.feu {
+  margin-left: 50px;
+  font-size: large;
+
+}
+
+.eau {
+  font-size: 15px;
+  margin-left: 50px;
+  font-style: italic;
+}
+
+.descriptifviper3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.imgs img{
+  width:900px;
+height:900px;
+margin-right: 150px;
+}
+
+
+
+/* Ma Page Les armes */
+
+
+table img:hover {
+transform: scale(1.04);
+
+}
+
+table img:active {
+  
+  transform: rotateY(180deg);
+}
+
+table img {
+  width: 200px;
+  transition: 0.5s;
+}
+
+td {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  border: solid rgb(39, 126, 113);
+  
+}
+
+
+
+
+caption {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: white;
+}
+
+.MonTableau {
+  display: flex;
+  justify-content: center;
+}
