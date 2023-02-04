@@ -1,5 +1,5 @@
 
-/*Ma page Accueil*/
+/*Pour toutes les pages*/
 
 body {
   background-image:url("C:/Users/jeanm/OneDrive/Bureau/Mon site internet/Images/image de fond pour mon site.png");
@@ -12,8 +12,7 @@ p {
   color: white;
 }
 
-      /*Ma Page Accueil, 
-                    Mon Menu*/
+      /*Mon Menu sur toutes mes pages*/
 
 
 .logos img{
@@ -59,6 +58,8 @@ padding-left: 0;
 
 
 }
+
+/*Main de ma page d'Accueil*/
 
 
 .gogo {
@@ -159,13 +160,7 @@ margin-left: 5%;
 
 }
 
-.logo {
-
-height:100px;
-padding-left: 0;
-width: 135px;
-}
-
+/*Mon Footer sur toutes mes pages*/
 
 footer {
   display: flex;
@@ -306,7 +301,9 @@ margin-left:100px;
 
 }
 
+
 /* Ma page Règles */
+
 
 .modes {
   border-radius: 20px;
@@ -334,7 +331,7 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 margin: 50px;
 }
 
-/* Ma page Les Agents */
+/* Ma page Les Agents (où l'on choisit l'agent que l'on souhaite voir)*/
 
 .selectionnezAgent {
   display: flex;
@@ -504,7 +501,7 @@ margin-right: 150px;
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Open+Sans:wght@300&family=Quicksand&display=swap');
  
-
+/*Mon Tableau des armes*/
 
 table img:hover {
 transform: scale(1.04);
@@ -683,7 +680,7 @@ margin-left: 20px;
  }
 
 
- /* Page Formulaire */ 
+ /* La Page Formulaire */ 
 
 
  .Titreformu {
@@ -700,6 +697,8 @@ margin-left: 20px;
 
 
  }
+
+ /*Le Formulaire en lui-même*/
 
 form {
   background-color: rgb(67, 67, 67);
