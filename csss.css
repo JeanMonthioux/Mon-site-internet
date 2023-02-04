@@ -685,6 +685,116 @@ margin-left: 20px;
 
  /* Page Formulaire */ 
 
+
+ .Titreformu {
+    border-radius: 20px;
+    display: flex;
+    margin-top: 0;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: rgb(139, 0, 0);
+
+
+ }
+
 form {
+  background-color: rgb(67, 67, 67);
+  border: solid rgb(67, 67, 67) 2px;
+  border-radius: 20px;
+  color: white;
+ margin-left: 300px;
+ margin-right: 300px;
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+}
+
+.formulairePrenom {
+  font-size: 25px;
+  align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: 20px;
+}
+
+.formulaireNom {
+  font-size: 25px;
+  align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: 50px;
+}
+
+.formulaireMail {
+  font-size: 25px;
+align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: 50px;
+}
+
+.formulaireEnvoyer {
+ 
+  align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+.champtexte {
+  font-size: 25px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+
+label {
+
+margin-bottom: 10px;
+
+}
+
+input {display: flex;
+  justify-content: center;
+border-radius: 10px;
+padding: 10px;
+margin-left: 100px;
+margin-right: 100px;
+width: 350px;
+}
+
+.titreliste{
+font-size: 25px;
+  align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: 50px;
+
+}
+
+select {
+font-size: 17px;
+margin-left: 300px;
+margin-right: 300px;
   
+}
+
+.envoyerr {
+ 
+color: white;
+background-color:rgb(177, 24, 24);
+
 }
